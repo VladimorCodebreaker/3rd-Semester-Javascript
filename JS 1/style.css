@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
+:root {
+    --font-regular: 'Poppins', sans-serif;
+    --font-cursive: 'Alex Brush', sans-serif;
+
+    --color-white: #fff;
+    --color-black: #000;
+    --color-gray: #777;
+    --background-gradient-transparent: linear-gradient(107.56deg, rgba(7, 0, 248, 0.78) 40.62%, rgba(201, 12, 232, 0.5) 100%);
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: var(--font-regular);
+    font-size: 1.1rem;
+    font-weight: 600;
+    background: var(--background-gradient-transparent);
+}
+
+h1 {
+    text-align: center;
+    color: var(--color-white);
+}
