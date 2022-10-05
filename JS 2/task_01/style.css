@@ -1,0 +1,26 @@
+:root {
+    --color-black: #000;
+    --color-white: #fff;
+    -color-gray: #333;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    background-color: aquamarine;
+    font-size: 1.1rem;
+}
+
+h1, h2, h3, h4, h5, h6, p, img {
+    margin: 10px;
+    padding: 10px;
+    border: solid blue;
+    display: inline; 
+}
