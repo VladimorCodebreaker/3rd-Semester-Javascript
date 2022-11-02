@@ -1,0 +1,65 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background-color: beige;
+}
+
+h1 {
+    color: blueviolet;
+    font-size: 45px;
+    margin: 20px 0 30px 0;
+    font-family: Verdana;
+}
+
+#b1,
+#b2,
+#b3,
+#b4,
+#b5,
+#b6,
+#b7,
+#b8,
+#b9 {
+    width: 80px;
+    height: 52px;
+    margin: auto;
+    border: 5px solid blueviolet;
+    border-radius: 6px;
+    font-size: 30px;
+    text-align: center;
+    margin: 5px;
+}
+
+#but {
+    box-sizing: border-box;
+    width: 95px;
+    height: 40px;
+    border: 1px solid indigo;
+    margin: auto;
+    border-radius: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: indigo;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#print {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: indigo;
+    font-size: 20px;
+}
+
+#main {
+    text-align: center;
+}
+
+#ins {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: indigo;
+    font-size: 17px;
+}

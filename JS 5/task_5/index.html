@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="./script.js" defer></script>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #000;
+        }
+
+        .wrapper {
+            border: 1px dotted #fff;
+        }
+
+        div {
+            display: inline-block;
+            margin: 5px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: lighter;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        div,
+        span {
+            color: #fff;
+            font-size: 4rem;
+        }
+
+        .hours {
+            padding-left: 20px;
+        }
+
+        .seconds {
+            padding-right: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="hours"></div>
+        <span>:</span>
+        <div class="minutes"></div>
+        <span>:</span>
+        <div class="seconds"></div>
+    </div>
+</body>
+
+</html>
