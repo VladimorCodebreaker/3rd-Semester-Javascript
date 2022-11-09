@@ -1,0 +1,52 @@
+{
+    "images": [
+        {
+            "src": "image_01.jpg",
+            "name": "Image 1"
+        },
+        {
+            "src": "image_02.jpg",
+            "name": "Image 2"
+        },
+        {
+            "src": "image_03.jpg",
+            "name": "Image 1"
+        },
+        {
+            "src": "image_04.jpg",
+            "name": "Image 1"
+        },
+        {
+            "src": "image_05.jpg",
+            "name": "Image 01"
+        },
+        {
+            "src": "image_06.jpg",
+            "name": "Image 01"
+        },
+        {
+            "src": "image_07.jpg",
+            "name": "Image 01"
+        },
+        {
+            "src": "image_08.jpg",
+            "name": "Image 01"
+        },
+        {
+            "src": "image_09.jpg",
+            "name": "Image 01"
+        },
+        {
+            "src": "image_10.jpg",
+            "name": "Image 01"
+        },
+        {
+            "src": "image_11.jpg",
+            "name": "Image 01"
+        },
+        {
+            "src": "image_12.jpg",
+            "name": "Image 01"
+        }
+    ]
+}
